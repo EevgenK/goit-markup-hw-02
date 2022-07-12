@@ -1,8 +1,71 @@
- body {
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --title-secon-color: #FFFFFF;
+    --accent-text-color: #2196F3;
+
+}
+body {
     font-family: 'roboto', sans-serif;
-    color: #757575;
+    color: var(--primary-text-color);
 }
 
-li {
+.list {
     list-style: none;
 }
+
+.link {
+color: currentColor;
+text-decoration: none;
+}
+/* header */
+.subject-logo {  
+    text-decoration: none;  
+    font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+color: var(--title-text-color);
+}
+.blue-logo {
+    color: var(--accent-text-color);
+}
+.subject-logo:hover,
+.subject-logo:focus {
+    color: var(--accent-text-color);
+}
+
+/* Navigation */
+
+.nav-list {
+    font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: var(--title-text-color);
+}
+.nav-list-item:hover,
+.nav-list-item:focus {
+    color: var(--accent-text-color);
+}
+.nav-link.current {
+    color: var(--accent-text-color); 
+}
+.subject-contact-list {
+    font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+}
+.subject-mail-link:hover,
+.subject-mail-link:focus {
+    color: var(--accent-text-color);
+}
+.subject-phone-link:hover,
+.subject-phone-link:focus {
+    color: var(--accent-text-color);
+}
+
+/* hero */
