@@ -5,6 +5,7 @@
     --accent-text-color: #2196F3;
     --bg-color: #2F303A;
     --light-grey-color:#F5F4FA;
+    --grey-contacts-color:rgba(255, 255, 255, 0.6);
 
 }
 body {
@@ -62,14 +63,11 @@ font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
 }
-.subject-mail-link:hover,
-.subject-mail-link:focus {
+.contact-item:hover,
+.contact-item:focus {
     color: var(--accent-text-color);
 }
-.subject-phone-link:hover,
-.subject-phone-link:focus {
-    color: var(--accent-text-color);
-}
+
 /* hero */
 .hero {
 width: 1600px;
@@ -162,8 +160,17 @@ letter-spacing: 0.03em;
     color: var(--title-second-color);
 }
 .basement-addres {
-    font-size: 14px;
+    font-style: normal;
+font-weight: 400;
+font-size: 14px;
 line-height: 24px;
 letter-spacing: 0.03em;
 color: var(--title-second-color);
+}
+.basement-list {
+    font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: var(--grey-contacts-color)
 }
