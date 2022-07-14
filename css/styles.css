@@ -188,19 +188,39 @@ color: var(--grey-contacts-color)
     clip: rect(0 0 0 0); 
     overflow: hidden; 
     }
-    .mmenu-btn
-
-    .portfolio
-
-    .portfolio-menu-list
-
-    .portfolio-menu-item
-
-    .portfolio-progects
-
-    .portfolio-item
-
-    .portfolio-title
+    .menu-btn {
+    width: 128px;
+    height: 38px;
+    left: 576px;
+    top: 174px;
+    border-radius: 4px;
+    background-color: var(--light-grey-color);
+    font-family: inherit;    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color)
+    }
     
-    .portfolio-text
-    
+    .menu-btn:hover,
+    .menu-btn:focus {
+    color: var(--title-second-color);
+    background-color: var(--accent-text-color);
+    } 
+
+    .portfolio-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-text-color)
+    }    
+    .portfolio-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em
+    }
